@@ -20,14 +20,14 @@ Grant all privileges on the database to this user.
   Save the database details for later use in a settings.py
   
 5. Configure settings.py file in project:
-   '''plain
+   
     DB_ENGINE='django.db.backends.postgresql'
     DB_NAME=’online_bookstore’
     DB_USER='admin1'
     DB_PASSWORD='admin@123'
     DB_HOST='localhost'
     DB_PORT='5432'
-   '''
+   
 
 7. Apply Migrations:
 
